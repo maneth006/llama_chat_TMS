@@ -1,3 +1,5 @@
 flask
-flask-socketio
+Flask-SocketIO==5.2.0
+Werkzeug==2.2.2
 flask-cors
+ollama
