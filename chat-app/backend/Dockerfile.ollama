@@ -1,0 +1,8 @@
+# Dockerfile.ollama
+FROM ollama/ollama
+
+# Scarica il modello llama3
+RUN ollama pull llama3
+
+# Avvia Ollama come server
+CMD ["ollama", "serve"]
